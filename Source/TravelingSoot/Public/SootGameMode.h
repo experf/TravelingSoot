@@ -2,7 +2,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
-#include "NetGameMode.generated.h"
+#include "SootGameMode.generated.h"
 
 UCLASS(minimalapi)
 class ASootGameMode : public AGameModeBase

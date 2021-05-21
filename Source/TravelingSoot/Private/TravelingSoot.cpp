@@ -17,4 +17,4 @@ void FTravelingSootModule::ShutdownModule()
 
 #undef LOCTEXT_NAMESPACE
 
-IMPLEMENT_MODULE(FTravelingSootModule, epi)
+IMPLEMENT_MODULE(FTravelingSootModule, TravelingSoot)

@@ -2,7 +2,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
-#include "NetCharacter.generated.h"
+#include "SootCharacter.generated.h"
 
 class UInputComponent;
 
@@ -20,7 +20,7 @@ class ASootCharacter : public ACharacter
 
 public:
   // Sets default values for this character's properties
-  ANetCharacter();
+  ASootCharacter();
 
 protected:
   // Called when the game starts or when spawned
