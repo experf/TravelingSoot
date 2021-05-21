@@ -1,0 +1,5 @@
+# Unreal Engine build artifacts
+/Build
+/Binaries
+/DerivedDataCache
+/Intermediate

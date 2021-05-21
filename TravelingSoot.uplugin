@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.1.0",
+	"FriendlyName": "Traveling Soot",
+	"Description": "bounce wit me, bounce wit me",
+	"Category": "Online Platform",
+	"CreatedBy": "Expanded Performance Inc",
+	"CreatedByURL": "https://expand.live",
+	"DocsURL": "https://github.com/experf/TravelingSoot",
+	"MarketplaceURL": "",
+	"SupportURL": "https://github.com/experf/TravelingSoot/issues",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": true,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "TravelingSoot",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
