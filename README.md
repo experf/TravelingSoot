@@ -220,9 +220,37 @@ Setup
             }
           }
           ```
-
-    7.  Re-generate you product's IDE files (Visual Studio
-        `${NAME}.sln` or XCode `${NAME}.xcworkspace` in your project root).
+        
+7.  Re-generate you product's IDE files
+    
+    -   ### Windows / Visual Studio ###
+        
+        Right-click on the `.sln` file in your project root and choose
+        _Generate Visual Studio project files.
+        
+        If you have more than one UE installation present, make sure you select
+        the one built from `4.26.2-release` source code.
+        
+        ![Visual Studio Example](https://docs.unrealengine.com/Images/InteractiveExperiences/Networking/HowTo/DedicatedServers/GenerateProjectFiles.webp)
+        
+    -   ### macOS / XCode ###
+        
+        I think there is _supposed_ to be a way to regenerate XCode project
+        files from the GUI (like in Windows), but I found it flaky and now do
+        the regeneration from the terminal:
+        
+        ```shell
+        ${UE_SRC}/Engine/Build/BatchFiles/Mac/GenerateProjectFiles.sh \
+            -project="${PROJECT}/${NAME}.uproject" \
+            -game
+        ```
+        
+        where `${UE_SRC}` is the path to the `4.26.2-release` source code.
+        
+        > ### 📢 NOTE ###
+        > 
+        > The `-project=` option must be given the _absolute_ path to your
+        > `.uproject` file.
 
 That should do it. If you're able to compile and package, things should work.
 Let us know and we'll put it up.
