@@ -239,8 +239,8 @@ Setup
         files from the GUI (like in Windows), but I found it flaky and now do
         the regeneration from the terminal:
         
-        ```shell
-        ${UE_SRC}/Engine/Build/BatchFiles/Mac/GenerateProjectFiles.sh \
+        ```bash
+        "${UE_SRC}/Engine/Build/BatchFiles/Mac/GenerateProjectFiles.sh" \
             -project="${PROJECT}/${NAME}.uproject" \
             -game
         ```
