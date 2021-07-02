@@ -9,5 +9,5 @@ class TRAVELINGSOOT_API ASootGameMode : public AGameModeBase
   GENERATED_BODY()
 
 public:
-  TRAVELINGSOOT_API ASootGameMode();
+  ASootGameMode();
 };
